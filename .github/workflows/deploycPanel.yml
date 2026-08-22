@@ -36,7 +36,7 @@ jobs:
           port: 21
           local-dir: ./  # atau ./ jika ingin upload semua
           server-dir: /seputarberita/
-          timeout: 100000
+          timeout: 150000
           dangerous-clean-slate: false
           exclude: |
             **/.git*
